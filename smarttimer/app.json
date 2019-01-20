@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setting/setting",
+    "pages/timer/timer"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4169e1",
+    "navigationBarTitleText": "今天学习了没",
+    "navigationBarTextStyle": "white"
+  },
+    "tabBar": {
+          "color": "#999",
+          "selectedColor": "#222",
+          "backgroundColor": "#f8f9fb",
+          "borderStyle": "white",
+      "list": [
+                    {
+                      "pagePath": "pages/index/index",
+                      "text": "主页",
+                      "iconPath": "assets/todos.png",
+                      "selectedIconPath": "assets/todos-active.png"
+                    },
+{
+  "pagePath": "pages/logs/logs",
+  "text": "记录",
+  "iconPath": "assets/logs.png",
+  "selectedIconPath": "assets/logs-active.png"
+},
+        {
+          "pagePath": "pages/setting/setting",
+          "iconPath": "assets/setting.png",
+          "selectedIconPath": "assets/setting-active.png",
+          "text": "设置"
+        }
+
+      ]
+    }
+
+}
